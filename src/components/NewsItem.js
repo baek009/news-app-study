@@ -41,11 +41,11 @@ const NewsItem = ({ article }) => {
   return (
     <NewsItemStyle>
       {urlToImage && (
-         <div className="thumbnail">
-         <a href={url} target="blank" rel="noopener noreferrer">
-           <img src={urlToImage} alt="썸네일이미지" />
-         </a>
-       </div>
+        <div className="thumbnail">
+          <a href={url} target="blank" rel="noopener noreferrer">
+            <img src={urlToImage} alt="썸네일이미지" />
+          </a>
+        </div>
       )}
       <div className="contents">
         <h2>
